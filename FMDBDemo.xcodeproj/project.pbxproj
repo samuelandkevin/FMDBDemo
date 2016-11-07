@@ -13,6 +13,20 @@
 		AC46B8121DC9724600677363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC46B8101DC9724600677363 /* Main.storyboard */; };
 		AC46B8141DC9724600677363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC46B8131DC9724600677363 /* Assets.xcassets */; };
 		AC46B8171DC9724600677363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC46B8151DC9724600677363 /* LaunchScreen.storyboard */; };
+		AC46B8381DC9727700677363 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8201DC9727700677363 /* FMDatabase.m */; };
+		AC46B8391DC9727700677363 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8221DC9727700677363 /* FMDatabaseAdditions.m */; };
+		AC46B83A1DC9727700677363 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8241DC9727700677363 /* FMDatabasePool.m */; };
+		AC46B83B1DC9727700677363 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8261DC9727700677363 /* FMDatabaseQueue.m */; };
+		AC46B83C1DC9727700677363 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8291DC9727700677363 /* FMResultSet.m */; };
+		AC46B83D1DC9727700677363 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC46B82A1DC9727700677363 /* Info.plist */; };
+		AC46B83E1DC9727700677363 /* YHCommentData.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B82D1DC9727700677363 /* YHCommentData.m */; };
+		AC46B83F1DC9727700677363 /* YHEducationExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B82F1DC9727700677363 /* YHEducationExperienceModel.m */; };
+		AC46B8401DC9727700677363 /* YHUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8311DC9727700677363 /* YHUserInfo.m */; };
+		AC46B8411DC9727700677363 /* YHUserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8331DC9727700677363 /* YHUserSetting.m */; };
+		AC46B8421DC9727700677363 /* YHWorkExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8351DC9727700677363 /* YHWorkExperienceModel.m */; };
+		AC46B8431DC9727700677363 /* YHWorkGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8371DC9727700677363 /* YHWorkGroup.m */; };
+		AC46B8461DC972B400677363 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46B8451DC972B400677363 /* SqliteManager.m */; };
+		AC46B8491DC9738D00677363 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC46B8481DC9738D00677363 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,33 @@
 		AC46B8131DC9724600677363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC46B8161DC9724600677363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC46B8181DC9724600677363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC46B81F1DC9727700677363 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AC46B8201DC9727700677363 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AC46B8211DC9727700677363 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AC46B8221DC9727700677363 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AC46B8231DC9727700677363 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AC46B8241DC9727700677363 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AC46B8251DC9727700677363 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AC46B8261DC9727700677363 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AC46B8271DC9727700677363 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AC46B8281DC9727700677363 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AC46B8291DC9727700677363 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AC46B82A1DC9727700677363 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC46B82C1DC9727700677363 /* YHCommentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCommentData.h; sourceTree = "<group>"; };
+		AC46B82D1DC9727700677363 /* YHCommentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCommentData.m; sourceTree = "<group>"; };
+		AC46B82E1DC9727700677363 /* YHEducationExperienceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHEducationExperienceModel.h; sourceTree = "<group>"; };
+		AC46B82F1DC9727700677363 /* YHEducationExperienceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHEducationExperienceModel.m; sourceTree = "<group>"; };
+		AC46B8301DC9727700677363 /* YHUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserInfo.h; sourceTree = "<group>"; };
+		AC46B8311DC9727700677363 /* YHUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserInfo.m; sourceTree = "<group>"; };
+		AC46B8321DC9727700677363 /* YHUserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserSetting.h; sourceTree = "<group>"; };
+		AC46B8331DC9727700677363 /* YHUserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserSetting.m; sourceTree = "<group>"; };
+		AC46B8341DC9727700677363 /* YHWorkExperienceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWorkExperienceModel.h; sourceTree = "<group>"; };
+		AC46B8351DC9727700677363 /* YHWorkExperienceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWorkExperienceModel.m; sourceTree = "<group>"; };
+		AC46B8361DC9727700677363 /* YHWorkGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWorkGroup.h; sourceTree = "<group>"; };
+		AC46B8371DC9727700677363 /* YHWorkGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWorkGroup.m; sourceTree = "<group>"; };
+		AC46B8441DC972B400677363 /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		AC46B8451DC972B400677363 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		AC46B8481DC9738D00677363 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC46B8491DC9738D00677363 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +86,7 @@
 			children = (
 				AC46B8061DC9724600677363 /* FMDBDemo */,
 				AC46B8051DC9724600677363 /* Products */,
+				AC46B8471DC9738D00677363 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +105,14 @@
 				AC46B80B1DC9724600677363 /* AppDelegate.m */,
 				AC46B80D1DC9724600677363 /* ViewController.h */,
 				AC46B80E1DC9724600677363 /* ViewController.m */,
+				AC46B8441DC972B400677363 /* SqliteManager.h */,
+				AC46B8451DC972B400677363 /* SqliteManager.m */,
 				AC46B8101DC9724600677363 /* Main.storyboard */,
 				AC46B8131DC9724600677363 /* Assets.xcassets */,
 				AC46B8151DC9724600677363 /* LaunchScreen.storyboard */,
 				AC46B8181DC9724600677363 /* Info.plist */,
+				AC46B81E1DC9727700677363 /* fmdb */,
+				AC46B82B1DC9727700677363 /* Model */,
 				AC46B8071DC9724600677363 /* Supporting Files */,
 			);
 			path = FMDBDemo;
@@ -77,6 +124,52 @@
 				AC46B8081DC9724600677363 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC46B81E1DC9727700677363 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				AC46B81F1DC9727700677363 /* FMDatabase.h */,
+				AC46B8201DC9727700677363 /* FMDatabase.m */,
+				AC46B8211DC9727700677363 /* FMDatabaseAdditions.h */,
+				AC46B8221DC9727700677363 /* FMDatabaseAdditions.m */,
+				AC46B8231DC9727700677363 /* FMDatabasePool.h */,
+				AC46B8241DC9727700677363 /* FMDatabasePool.m */,
+				AC46B8251DC9727700677363 /* FMDatabaseQueue.h */,
+				AC46B8261DC9727700677363 /* FMDatabaseQueue.m */,
+				AC46B8271DC9727700677363 /* FMDB.h */,
+				AC46B8281DC9727700677363 /* FMResultSet.h */,
+				AC46B8291DC9727700677363 /* FMResultSet.m */,
+				AC46B82A1DC9727700677363 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		AC46B82B1DC9727700677363 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC46B82C1DC9727700677363 /* YHCommentData.h */,
+				AC46B82D1DC9727700677363 /* YHCommentData.m */,
+				AC46B82E1DC9727700677363 /* YHEducationExperienceModel.h */,
+				AC46B82F1DC9727700677363 /* YHEducationExperienceModel.m */,
+				AC46B8301DC9727700677363 /* YHUserInfo.h */,
+				AC46B8311DC9727700677363 /* YHUserInfo.m */,
+				AC46B8321DC9727700677363 /* YHUserSetting.h */,
+				AC46B8331DC9727700677363 /* YHUserSetting.m */,
+				AC46B8341DC9727700677363 /* YHWorkExperienceModel.h */,
+				AC46B8351DC9727700677363 /* YHWorkExperienceModel.m */,
+				AC46B8361DC9727700677363 /* YHWorkGroup.h */,
+				AC46B8371DC9727700677363 /* YHWorkGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC46B8471DC9738D00677363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC46B8481DC9738D00677363 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC46B83D1DC9727700677363 /* Info.plist in Resources */,
 				AC46B8171DC9724600677363 /* LaunchScreen.storyboard in Resources */,
 				AC46B8141DC9724600677363 /* Assets.xcassets in Resources */,
 				AC46B8121DC9724600677363 /* Main.storyboard in Resources */,
@@ -151,8 +245,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC46B80F1DC9724600677363 /* ViewController.m in Sources */,
+				AC46B8461DC972B400677363 /* SqliteManager.m in Sources */,
+				AC46B8431DC9727700677363 /* YHWorkGroup.m in Sources */,
+				AC46B83F1DC9727700677363 /* YHEducationExperienceModel.m in Sources */,
+				AC46B8401DC9727700677363 /* YHUserInfo.m in Sources */,
+				AC46B83A1DC9727700677363 /* FMDatabasePool.m in Sources */,
+				AC46B8411DC9727700677363 /* YHUserSetting.m in Sources */,
+				AC46B83E1DC9727700677363 /* YHCommentData.m in Sources */,
 				AC46B80C1DC9724600677363 /* AppDelegate.m in Sources */,
+				AC46B8421DC9727700677363 /* YHWorkExperienceModel.m in Sources */,
+				AC46B83B1DC9727700677363 /* FMDatabaseQueue.m in Sources */,
 				AC46B8091DC9724600677363 /* main.m in Sources */,
+				AC46B8381DC9727700677363 /* FMDatabase.m in Sources */,
+				AC46B83C1DC9727700677363 /* FMResultSet.m in Sources */,
+				AC46B8391DC9727700677363 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
